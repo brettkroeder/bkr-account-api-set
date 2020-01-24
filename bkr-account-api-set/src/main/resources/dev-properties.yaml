@@ -1,0 +1,36 @@
+http:
+  port: "8081"
+
+api:
+  domain:
+    get:
+      basePath: "/api/domain/get"
+  salesforce:
+    get:
+      host: "localhost"
+      port: "8081"
+      basePath: "/api/salesforce/get"
+    update:
+      id: ""
+      host: "bkr-account-apis.us-e1.cloudhub.io"
+      port: "443"
+      basePath: "/api/salesforce/get"
+  sap:
+    get:
+      host: "localhost"
+      port: "8081"
+      basePath: "/api/sap/get"
+    update:
+      host: "bkr-account-apis.us-e1.cloudhub.io"
+      port: "443"
+      basePath: "/api/sap/get"
+  billingDb:
+    get:
+      host: "localhost"
+      port: "8081"
+      basePath: "/api/billingDb/get"
+    update:
+      host: "bkr-account-apis.us-e1.cloudhub.io"
+      port: "443"
+      basePath: "/api/billing/get"
+      

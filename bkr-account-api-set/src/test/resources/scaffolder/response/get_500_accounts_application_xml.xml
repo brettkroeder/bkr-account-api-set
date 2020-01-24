@@ -1,0 +1,4 @@
+-
+  severity: INFO
+  code: "500"
+  description: Internal server error
